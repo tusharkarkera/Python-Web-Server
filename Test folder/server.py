@@ -27,8 +27,7 @@ while True:
                 finalUrl = finalUrl+temStr+" "
 
             finalUrl = finalUrl[:-1]
-            print "finalUrl is:"
-            print(finalUrl)
+            #print(finalUrl)
             resp = [
                 '<html><body>',
                 '<p> <h1>Directory listing </h1></p>',
